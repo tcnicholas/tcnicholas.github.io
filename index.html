@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thomas C. Nicholas</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="MOFs, machine learning, metal-organic, simulation, amorphous, materials">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="HW956aKDL4cjHg9l6ID_ltlFooY7Nv0hlLArzYK3MoI" />
+    <link rel="stylesheet" href="w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Academicons/css/academicons.min.css" />
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "sans-serif", sans-serif;
+        }
+
+        .arrow {
+            border: solid;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+  </head>
+
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top" style="max-width: 1400px;">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <!-- Left Column -->
+                <div class="w3-third">
+                    <div class="w3-white w3-text-black w3-card-4">
+
+                        <div class="w3-display-container">
+                            <img src="Images/profile.jpeg" style="width: 100%;" alt="Avatar" />
+                        </div>
+
+                        <div class="w3-container w3-center">
+                            <h2>Thomas C. Nicholas</h2>
+                            <hr />
+                        </div>
+
+                        <div class="w3-container w3-center w3-text-dark-grey">
+
+                            <a href="https://orcid.org/0000-0003-1333-0052" title="Orcid"><i class="ai ai-orcid ai-2x w3-text-light-green w3-hover-opacity"></i></a>
+                            <a href="https://www.linkedin.com/in/thomascnicholas/" title="LinkedIn"><i class="fa fa-linkedin fa-2x w3-text-dark-grey w3-hover-opacity"></i></a>
+                            <a href="https://twitter.com/thomascnicholas" title="Twitter"><i class="fa fa-twitter fa-2x w3-text-light-blue w3-hover-opacity"></i></a>
+                            <a href="https://github.com/tcnicholas" title="GitHub"><i class="fa fa-github fa-2x w3-text-indigo w3-hover-opacity"></i></a>
+                            <hr/>
+                        </div>
+
+                        <div class="w3-container w3-center w3-padding-16">
+                            <a href="https://goodwingroupox.uk" title="Goodwin Group Website"><img src=Images/goodwinGroupLogo.png alt="Goodwin Group Logo" style="max-width:30%"></a>
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <!-- End Left Column -->
+                </div>
+
+
+                <!-- Right Column -->
+                <div class="w3-twothird">
+
+                    <!-- Introductory details -->
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-text-dark-grey"></i>About</h2>
+                        <div class="w3-container">
+                            <p>I am an inorganic chemistry doctoral student at the University of Oxford, working in the Goodwin and Deringer groups.</p>
+                        </div>
+                    </div>
+
+                    <!-- Publications -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+
+                          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-text-dark-grey"></i>Publications</h2>
+                          <div class="w3-container">
+
+
+                            <!-- AB2 coarse-grained MOFs. -->
+                            <h5 class="w3-opacity">
+                                <a href="https://doi.org/10.1039/D0SC03287E"><b>Visualization and Quantification of Geometric Diversity in Metal–Organic Frameworks</b></a>
+                            </h5>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <div data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                            </div>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <span class="__dimensions_badge_embed__" data-doi="" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+                            </div>
+                            <p>Thomas C. Nicholas; Eugeny V. Alexandrov; Vladislav A. Blatov; Alexander P. Shevchenko; Davide M. Proserpio; Andrew L. Goodwin; and Volker L. Deringer; <i>Chem. Mater.</i>, <strong>33</strong>, 8289–8300 (2021).</p>
+                            <center><img src=Images/chem_mater_toc.png alt="Visualization and Quantification of Geometric Diversity in Metal–Organic Frameworks graphical abstract." style="max-width:75%"></center>
+                            <div class="w3-bar w3-light-grey" style="width: 100%;">
+                                <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'chemmater2021')">Abstract</button>
+                                <button class="w3-bar-item w3-button tablink w3-right" onclick="openTab(event,'chemmater2021 X')"><i class="fa fa-times"></i></button>
+                            </div>
+                            <div id="chemmater2021" class="w3-container w3-light-grey w3-border tab" style="display: none;">
+                                <p>
+                                  With ever-growing numbers of metal–organic framework (MOF) materials being reported, new computational approaches are required for a quantitative understanding of structure–property correlations in MOFs. Here, we show how structural coarse-graining and embedding (“unsupervised learning”) schemes can together give new insights into the geometric diversity of MOF structures. Based on a curated data set of 1262 reported experimental structures, we automatically generate coarse-grained and rescaled representations which we couple to a kernel-based similarity metric and to widely used embedding schemes. This approach allows us to visualize the breadth of geometric diversity within individual topologies and to quantify the distributions of local and global similarities across the structural space of MOFs. The methodology is implemented in an openly available Python package and is expected to be useful in future high-throughput studies.
+                                </p>
+                            </div>
+                            <hr/>
+
+
+                            <!-- Metal ammonia solutions. -->
+                            <h5 class="w3-opacity">
+                                <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.1c03843"><b>Intermediate Range Order in Metal-Ammonia Solutions: Pure and Na-Doped Ca-NH<sub>3</sub></b></a>
+                            </h5>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <div data-badge-type="2" data-doi="10.1021/acs.jpcb.1c03843" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                            </div>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jpcb.1c03843" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+                            </div>
+                            <p>Thomas C. Nicholas; Thomas, F. Headen; Jonathan C. Wasse; Christopher A. Howard; Neal T. Skipper; Andrew G. Seel; <i>J. Phys. Chem. B</i>, <strong>125</strong>, 7456–7461 (2021).</p>
+                            <div class="w3-bar w3-light-grey" style="width: 100%;">
+                                <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'jphyschemb2021')">Abstract</button>
+                                <button class="w3-bar-item w3-button tablink w3-right" onclick="openTab(event,'jphyschemb2021 X')"><i class="fa fa-times"></i></button>
+                            </div>
+                            <div id="jphyschemb2021" class="w3-container w3-light-grey w3-border tab" style="display: none;">
+                                <p>
+                                    The local and intermediate range ordering in Ca–NH3 solutions in their metallic phase is determined through H/D isotopically differenced neutron diffraction in combination with empirical potential structure refinements. For both low and high relative Ca concentrations, the Ca ions are found to be octahedrally coordinated by the NH<sub>3</sub> solvent, and these hexammine units are spatially correlated out to lengthscales of ∼7.4–10.3 Å depending on the concentration, leading to pronounced ordering in the bulk liquid. We further demonstrate that this liquid order can be progressively disrupted by the substitution of Ca for Na, whereby a distortion of the average ion primary solvation occurs and the intermediate range ion–ion correlations are disrupted.
+                                </p>
+                            </div>
+                            <hr/>
+
+
+                            <!-- Chem. Sci. Hybrid and Inorganic Frameworks -->
+                            <h5 class="w3-opacity">
+                                <a href="https://doi.org/10.1039/D0SC03287E"><b>Understanding the geometric diversity of inorganic and hybrid frameworks through structural coarse-graining</b></a>
+                            </h5>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <div data-badge-type="2" data-doi="10.1039/D0SC03287E" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                            </div>
+                            <div class="w3-container w3-cell w3-mobile">
+                                <span class="__dimensions_badge_embed__" data-doi="10.1039/D0SC03287E" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+                            </div>
+                            <p>Thomas C. Nicholas; Andrew L. Goodwin; Volker L. Deringer; <i>Chem. Sci.</i> <strong>11</strong>, 12580–12587 (2020).</p>
+                            <center><img src=Images/final_TOC_figure_ZIF_map.jpeg alt="Understanding the geometric diversity of inorganic and hybrid frameworks through structural coarse-graining graphical abstract" style="max-width:75%"></center>
+                            <div class="w3-bar w3-light-grey" style="width: 100%;">
+                                <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'chemsci2020')">Abstract</button>
+                                <button class="w3-bar-item w3-button tablink w3-right" onclick="openTab(event,'chemsci2020 X')"><i class="fa fa-times"></i></button>
+                            </div>
+                            <div id="chemsci2020" class="w3-container w3-light-grey w3-border tab" style="display: none;">
+                                <p>
+                                    Much of our understanding of complex structures is based on simplification: for example, metal–organic frameworks are often discussed in the context of “nodes” and “linkers”, allowing for a qualitative comparison with simpler inorganic structures. Here we show how such an understanding can be obtained in a systematic and quantitative framework, combining atom-density based similarity (kernel) functions and unsupervised machine learning with the long-standing idea of “coarse-graining” atomic structure. We demonstrate how the latter enables a comparison of vastly different chemical systems, and we use it to create a unified, two-dimensional structure map of experimentally known tetrahedral AB<sub>2</sub> networks – including clathrate hydrates, zeolitic imidazolate frameworks (ZIFs), and diverse inorganic phases. The structural relationships that emerge can then be linked to microscopic properties of interest, which we exemplify for structural heterogeneity and tetrahedral density.
+                                </p>
+                            </div>
+
+                        <hr/>
+                        </div>
+
+                    </div>
+                    <!-- End of Publications -->
+
+
+                    <!-- Education -->
+                    <div class="w3-container w3-card w3-white">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-text-dark-grey"></i>Education</h2>
+
+
+                        <!-- PhD -->
+                        <div class="w3-container">
+                            <div class="w3-cell-row">
+                                <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+                                    <h5 class="w3-opacity"><b>University of Oxford, U.K.</b></h5>
+                                    <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - Current</h6>
+                                    <p>Doctoral Studies in the Department of Inorganic Chemistry</p>
+                                </div>
+                                <hr />
+                            </div>
+                        </div>
+
+
+                        <!-- Undergraduate degree. -->
+                        <div class="w3-container">
+                              <div class="w3-cell-row">
+                                <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+                                    <h5 class="w3-opacity"><b>University of Oxford, U.K.</b></h5>
+                                    <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+                                    <p>Master of Chemistry, MChem</p>
+                                </div>
+                                <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+                                    <p><img src="Images/ox_logo_cmyk_blue_pos.png" alt="University of Oxford logo" style="float: right; max-height: 100px;" /></p>
+                                </div>
+                                <hr />
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End Right Column -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- End Page Container -->
+        </div>
+
+        <footer class="w3-container w3-dark-grey w3-center w3-margin-top">
+            <p>©2021 Thomas C. Nicholas. Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
+
+        <script>
+            function openTab(evt, tabName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("tab");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-blue-grey", "");
+                }
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " w3-blue-grey";
+            }
+        </script>
+
+        <script>
+            function w3_open() {
+              document.getElementById("main").style.marginLeft = "25%";
+              document.getElementById("mySidebar").style.width = "25%";
+              document.getElementById("mySidebar").style.display = "block";
+              document.getElementById("openNav").style.display = 'none';
+            }
+            function w3_close() {
+              document.getElementById("main").style.marginLeft = "0%";
+              document.getElementById("mySidebar").style.display = "none";
+              document.getElementById("openNav").style.display = "inline-block";
+            }
+        </script>
+
+
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+        <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    </body>
+</html>
