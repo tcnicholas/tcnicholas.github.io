@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Thomas Christian Nicholas
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th April 1998
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Oxford, Oxford, U.K.
+      year: 2020--2024
       description:
         - Description 1.
         - Description 2.

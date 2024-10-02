@@ -4,6 +4,24 @@
 
 // Typography
 
+@font-face {
+  font-family: 'ArnoPro';
+  src: url('arnopro-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ArnoPro';
+  src: url('arnopro-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'ArnoPro', serif;
+}
+
 p,
 h1,
 h2,
@@ -1058,3 +1076,4 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
