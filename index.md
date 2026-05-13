@@ -7,7 +7,7 @@ description: Personal website of Thomas C. Nicholas, postdoctoral researcher in 
   <div>
     <p class="kicker">Atomistic modelling · total scattering · hybrid frameworks</p>
     <h2>Thomas C. Nicholas</h2>
-    <p class="lede">I am a FWO Junior Postdoctoral Fellow at Ghent University’s Center for Molecular Modelling, working on disorder, flexibility, and stimuli-induced structural change in hybrid framework materials.</p>
+    <p class="lede">I am an FWO Junior Postdoctoral Fellow at Ghent University’s Center for Molecular Modelling, working on disorder, flexibility, and stimuli-induced structural change in hybrid framework materials.</p>
     <p>I combine neutron and X-ray total scattering, atomistic modelling, reverse Monte Carlo-style refinement, and machine-learned interatomic potentials to understand how local structure gives rise to the behaviour of disordered, amorphous, and flexible materials.</p>
     <div class="quick-links">
       <a class="pill" href="mailto:thomas.nicholas@ugent.be">thomas.nicholas@ugent.be</a>
@@ -30,11 +30,11 @@ description: Personal website of Thomas C. Nicholas, postdoctoral researcher in 
 <div class="grid" aria-label="Research themes">
   <article class="card">
     <h3>Total scattering</h3>
-    <p>Using neutron and X-ray pair distribution functions to probe local and intermediate-range order in systems where crystallography is incomplete.</p>
+    <p>Using neutron and X-ray total scattering to probe local and intermediate-range order in systems where crystallography does not give the full picture.</p>
   </article>
   <article class="card">
     <h3>Machine-learned interatomic potentials</h3>
-    <p>Developing and applying MLIPs to model flexible, disordered, and amorphous framework materials beyond the reach of routine first-principles sampling.</p>
+    <p>Developing and applying MLIPs to model flexible, disordered, and amorphous materials beyond the reach of routine first-principles calculations.</p>
   </article>
   <article class="card">
     <h3>Framework disorder</h3>
