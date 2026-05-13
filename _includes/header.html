@@ -3,10 +3,16 @@
     <span class="brand-mark">TN</span>
     <span class="brand-text">Thomas C. Nicholas</span>
   </a>
-  <nav class="nav" aria-label="Primary navigation">
-    <a href="{{ '/' | relative_url }}#research">Research</a>
-    <a href="{{ '/publications/' | relative_url }}">Publications</a>
-    <a href="{{ '/software/' | relative_url }}">Software</a>
-    <a href="{{ '/cv/' | relative_url }}">CV</a>
-  </nav>
+  <div class="nav-wrap">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}#research">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/software/' | relative_url }}">Software</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+      <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+      <span class="theme-toggle-text">Dark</span>
+    </button>
+  </div>
 </header>
