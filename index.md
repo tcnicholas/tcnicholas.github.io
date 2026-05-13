@@ -33,7 +33,7 @@ description: Personal website of Thomas C. Nicholas, postdoctoral researcher in 
     <p>Using neutron and X-ray pair distribution functions to probe local and intermediate-range order in systems where crystallography is incomplete.</p>
   </article>
   <article class="card">
-    <h3>Machine-learned potentials</h3>
+    <h3>Machine-learned interatomic potentials</h3>
     <p>Developing and applying MLIPs to model flexible, disordered, and amorphous framework materials beyond the reach of routine first-principles sampling.</p>
   </article>
   <article class="card">
