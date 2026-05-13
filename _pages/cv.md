@@ -82,7 +82,7 @@ permalink: /cv/
   <article class="pub-card">
     <ul>
       <li>FWO Junior Postdoctoral Research Fellowship, Ghent University · 2025–present</li>
-      <li>Your Researcher and Innovator Conference Grant, COST Action CA22147 · 2025</li>
+      <li>Young Researcher and Innovator Conference Grant, COST Action CA22147 · 2025</li>
       <li>BOF Postdoctoral Research Fellowship, Ghent University · 2024–2025</li>
       <li>Keith Prout Crystallography Fund Award, University of Oxford · 2023</li>
       <li>Condensed Matter and Materials Physics Summer Research Project Bursary, UCL · 2019</li>
