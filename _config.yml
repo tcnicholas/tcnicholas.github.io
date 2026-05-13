@@ -1,0 +1,46 @@
+title: Thomas C. Nicholas
+email: thomas.nicholas@ugent.be
+description: >-
+  Personal website of Thomas C. Nicholas: atomistic modelling, total scattering,
+  machine-learned interatomic potentials, and disordered framework materials.
+url: "https://tcnicholas.github.io"
+baseurl: ""
+lang: en-GB
+timezone: Europe/Brussels
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+sass:
+  style: compressed
+
+permalink: pretty
+include:
+  - _pages
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .github
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/img/og.jpg
+
+social:
+  github: https://github.com/tcnicholas
+  scholar: https://scholar.google.com/citations?user=Kc88498AAAAJ
+  twitter: https://x.com/thomascnicholas
