@@ -118,6 +118,14 @@ h3 { margin: 2.2rem 0 .5rem; font-size: 1.25rem; }
 .section { max-width: var(--measure); }
 .rule { margin: 3rem 0; border: 0; border-top: 1px solid var(--line); }
 
+.lede,
+.section > p,
+.card > p,
+.pub-card > p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .pub-list, .item-list { list-style: none; padding: 0; margin: 1.2rem 0; }
 .pub, .item { padding: 1.1rem 0; border-top: 1px solid var(--line); }
 .pub:first-child, .item:first-child { border-top: 0; }

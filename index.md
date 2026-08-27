@@ -1,14 +1,13 @@
 ---
 title:
-description: Personal website of Thomas C. Nicholas, postdoctoral researcher in atomistic modelling, total scattering, and disordered framework materials.
+description: Personal website of Thomas C. Nicholas, developing theory, simulation, and experiments to understand the structure, dynamics, and phase behaviour of complex materials.
 ---
 
 <section class="hero">
   <div>
-    <p class="kicker">Atomistic modelling · total scattering · hybrid frameworks</p>
+    <p class="kicker">Connecting microscopic models, experiments, and materials behaviour</p>
     <h2>Thomas C. Nicholas</h2>
-    <p class="lede">I am an FWO Junior Postdoctoral Fellow at Ghent University’s Center for Molecular Modelling, working on disorder, flexibility, and stimuli-induced structural change in hybrid framework materials.</p>
-    <p>I combine neutron and X-ray total scattering, atomistic modelling, reverse Monte Carlo-style refinement, and machine-learned interatomic potentials to understand how local structure gives rise to the behaviour of disordered, amorphous, and flexible materials.</p>
+    <p class="lede">I develop physical models to understand structurally and dynamically complex materials, connecting electronic structure and atomistic simulation to experimental observables and macroscopic behaviour. My work combines first-principles calculations, machine-learned interatomic potentials, and multiscale modelling with neutron and X-ray scattering and spectroscopy, which I use both to constrain microscopic models and to test their predictions.</p>
     <div class="quick-links">
       <a class="pill" href="mailto:thomas.nicholas@ugent.be">thomas.nicholas@ugent.be</a>
       <a class="pill" href="https://github.com/tcnicholas">GitHub</a>
@@ -23,28 +22,36 @@ description: Personal website of Thomas C. Nicholas, postdoctoral researcher in 
 </section>
 
 <section id="research" class="section">
-  <h2>Research</h2>
-  <p>My work focuses on the relationship between local structural disorder and macroscopic materials behaviour. The common thread is the construction of atomistic models that are both chemically credible and experimentally constrained.</p>
+  <h2>research</h2>
+  <p>My research aims to understand how microscopic interactions, structure, and dynamics give rise to the collective behaviour of complex materials. I combine theory and simulation across electronic, atomistic, and mesoscopic scales with experiments that directly probe structure and dynamics, using each to inform and constrain the other.</p>
 </section>
 
 <div class="grid" aria-label="Research themes">
   <article class="card">
-    <h3>Total scattering</h3>
-    <p>Using neutron and X-ray total scattering to probe local and intermediate-range order in systems where crystallography does not give the full picture.</p>
+    <h3>Complex materials and phase transitions</h3>
+    <p>Understanding how disorder, competing interactions, and collective dynamics produce phase behaviour in amorphous, flexible, and responsive materials.</p>
   </article>
   <article class="card">
-    <h3>Machine-learned interatomic potentials</h3>
-    <p>Developing and applying MLIPs to model flexible, disordered, and amorphous materials beyond the reach of routine first-principles calculations.</p>
+    <h3>Microscopic models across scales</h3>
+    <p>Developing electronic-structure, atomistic, machine-learning, and coarse-grained/continuum descriptions that connect microscopic interactions to collective behaviour.</p>
   </article>
   <article class="card">
-    <h3>Framework disorder</h3>
-    <p>Understanding how orientational disorder, lattice strain, guest loading, and amorphisation shape the behaviour of MOFs and related materials.</p>
+    <h3>Connecting experiment and simulation</h3>
+    <p>Designing, performing, and interpreting neutron and X-ray scattering and spectroscopy experiments alongside simulation, using experimental observables to constrain microscopic models and theoretical predictions to guide experiment.</p>
   </article>
 </div>
 
 <section class="section">
-  <h2>Selected work</h2>
+  <h2>selected work</h2>
   <ul class="pub-list">
+    <li class="pub">
+      <span class="pub-title">The structure and topology of an amorphous metal–organic framework</span>
+      <p class="pub-meta">T. C. Nicholas, D. F. Thomas du Toit, L. A. M. Rosset, D. M. Proserpio, A. L. Goodwin, V. L. Deringer · <em>arXiv</em> (2025)</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2503.24367">Preprint</a>
+        <a href="https://doi.org/10.48550/arXiv.2503.24367">DOI</a>
+      </div>
+    </li>
     <li class="pub">
       <span class="pub-title">Geometrically frustrated interactions drive structural complexity in amorphous calcium carbonate</span>
       <p class="pub-meta">T. C. Nicholas, A. E. Stones, A. Patel, F. M. Michel, R. J. Reeder, D. G. A. L. Aarts, V. L. Deringer, A. L. Goodwin · <em>Nature Chemistry</em> 16, 36–41 (2024)</p>

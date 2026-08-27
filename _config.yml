@@ -16,8 +16,6 @@ sass:
   style: compressed
 
 permalink: pretty
-include:
-  - _pages
 exclude:
   - README.md
   - Gemfile
